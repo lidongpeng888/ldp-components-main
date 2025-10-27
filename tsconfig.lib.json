@@ -1,0 +1,23 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "src/**/*",
+    "types/**/*"
+  ],
+  "exclude": [
+    "src/**/__tests__/*",
+    "src/**/*.stories.*",
+    "src/**/*.spec.*",
+    "src/**/*.test.*",
+    "**/*.d.ts"
+  ],
+  "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
+    "emitDeclarationOnly": false,
+    "outDir": "./dist",
+    "rootDir": ".",
+    "composite": false,
+    "incremental": false
+  }
+}
