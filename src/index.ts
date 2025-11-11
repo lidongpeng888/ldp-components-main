@@ -42,17 +42,18 @@ import Dropdown from './components/Dropdown'
 import DatePicker from './components/DatePicker'
 import Selector from './components/Selector'
 import Popover from './components/Popover'
-import Modal from './components/Modal'
+// import Modal from './components/Modal'
 // import Empty from './components/Empty'
 import Loading from './components/Loading'
 // import Message from './components/Message'
 // import Upload from './components/Upload'
 
 // 所有组件列表
-const components = [Modal,  Loading,, Dropdown, DatePicker, Selector, Popover /*,Empty,Message,Upload*/]
+const components = [  Loading,, Dropdown, DatePicker, Selector, Popover /*,Modal,Empty,Message,Upload*/]
 
 // 全量安装函数
 export function install(app: App): void {
+
   components.forEach(component => {
     if (component.install) {
       component.install(app)

@@ -1,7 +1,8 @@
 {
   "name": "vue-component-library",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "type": "module",
+  "private": false,
   "description": "Enterprise Vue 3 component library based on Ant Design Vue 4.x",
   "main": "./dist/index.js",
   "module": "./dist/index.es.js",
@@ -29,7 +30,7 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
     "type-check": "vue-tsc --noEmit",
-    "storybook": "storybook dev -p 6006",
+    "": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "prepare": "husky install"
   },
