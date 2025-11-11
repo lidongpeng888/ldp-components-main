@@ -43,13 +43,13 @@ import DatePicker from './components/DatePicker'
 import Selector from './components/Selector'
 import Popover from './components/Popover'
 import Modal from './components/Modal'
-import Empty from './components/Empty'
+// import Empty from './components/Empty'
 import Loading from './components/Loading'
-import Message from './components/Message'
-import Upload from './components/Upload'
+// import Message from './components/Message'
+// import Upload from './components/Upload'
 
 // 所有组件列表
-const components = [Modal, Empty, Loading, Message, Upload, Dropdown, DatePicker, Selector, Popover]
+const components = [Modal,  Loading,, Dropdown, DatePicker, Selector, Popover /*,Empty,Message,Upload*/]
 
 // 全量安装函数
 export function install(app: App): void {
